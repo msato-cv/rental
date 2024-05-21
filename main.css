@@ -1,0 +1,65 @@
+body {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('back.jpg') no-repeat left top; */
+  position: relative;
+  font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+  font-weight: bold;
+}
+#wrapper {
+  position: absolute;
+  top: 170px;
+  width: 1550px;
+  margin: 0 190px;
+}
+
+
+/* 左：アンケート枠  -------------------------------------- */
+
+
+/* 冒頭の食事アイコン */
+/* .material-symbols-outlined {
+  font-variation-settings:
+    'FILL'0, 'wght'100, 'GRAD'0;
+  font-size: 90px !important;
+  padding: 25px 25px;
+  background-color: #E7E6E6;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 20px; /* アイコンの下方向のマージンを追加 */
+  /*
+  position: absolute;
+  top: -60px;
+  z-index: 100;
+  overflow: visible;
+  left: 400px; */
+
+
+/*　選択用ボタン　*/
+.button-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 1440px;
+}
+.button-list li {
+  display: inline-block;
+  margin-right: 10px; /* ボタン間のスペースを調整 */
+  margin-bottom: 10px;
+  background-color: #AFABAB; /* ボタンの背景色 */
+  color: #ffffff; /* ボタンのテキスト色 */
+  padding: 10px 20px; /* ボタンのパディング */
+  border-radius: 10px; /* ボタンの角を丸くする */
+  cursor: pointer;
+  font-size: 14px;
+  width: 400px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.button-list li:hover {
+  background-color: #595959; /* マウスがボタンに重なったときの背景色 */
+}
+.button-list li:active, .button-list li:select {
+  background-color: #3B3838; /* ボタンがクリックされたときの背景色 */
+}
+/* .button-list li:last-child {
+  margin-right: 0; /* 最後のボタンの右側のスペースを削除 */ 
